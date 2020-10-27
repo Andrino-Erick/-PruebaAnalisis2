@@ -1,0 +1,52 @@
+{
+  "name": "orcaestra-finanzas",
+  "version": "0.1.0",
+  "description": "Servidor para Orquesta",
+  "main": "src/server.js",
+  "scripts": {
+    "test": "mocha",
+    "pretest": "eslint --ignore-path .gitignore .",
+    "start": "nodemon src/server.js",
+    "debug": "nodemon --inspect src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Duranzno/orcaestra-finanzas.git"
+  },
+  "author": "duranzno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Duranzno/orcaaestra-finanzas/issues"
+  },
+  "homepage": "https://github.com/Duranzno/orcaaestra-finanzas#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "feather-icons": "^4.7.3",
+    "http-error": "0.0.6",
+    "jsdom": "^12.1.0",
+    "mongoose": "5.2.8",
+    "multer": "^1.4.0",
+    "prettier": "^1.14.3",
+    "require": "^2.4.20",
+    "serve-favicon": "^2.5.0",
+    "sheetjs": "^1.0.21",
+    "xlsx": "^0.13.3",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "eslint": "^5.7.0",
+    "mocha": "^5.2.0",
+    "nodemon": "^1.18.10",
+    "supertest": "^3.3.0",
+    "uglify-js": "^3.4.9"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": "8.11.4",
+    "npm": "6.4.1"
+  }
+}
